@@ -1,0 +1,122 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.home {
+  padding: 2.5em 1em;
+  min-height: 100vh;
+  text-align: center;
+  background-image: url(images/background.png);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top-bar {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .top-bar .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+  }
+  
+  .top-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top-bar ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .top-bar ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .top-bar ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  
+  .top-bar ul li a:hover {
+    color: #ddd;
+  }
+
+
+  body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #535353;
+  color: rgb(44, 187, 235);
+  padding: 50px 0;
+  text-align: center;
+}
+p{
+  color: rgb(255, 255, 255);
+
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+
+.email-link a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #ffffff; /* You can change this to any desired color */
+}
+
+.email-link a:hover {
+  background-color: #acf9f5; /* Darker color on hover */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create 2 columns */
+  grid-gap: 10px; /* Add gap between grid items */
+}
+
+.grid-item img {
+  width: 100%; /* Ensure the image fills the grid item */
+  height: auto; /* Maintain aspect ratio */
+}
+.logo {
+  position: absolute;
+  top: 40px; /* Adjust top position as needed */
+  left: 20px; /* Adjust right position as needed */
+}
+
+.logo img {
+  width: 300px; /* Adjust the width of the logo as needed */
+}
